@@ -591,7 +591,7 @@ if($message['type']=='text') {
 #-------------------------[Close]-------------------------#
 #-------------------------[Open]-------------------------#
 if($message['type']=='text') {
-        if ($command == '/qiblat') { 
+        if ($command == 'qiblat') { 
      
         $result = qibla($options);
         $balas = array( 
@@ -606,9 +606,9 @@ if($message['type']=='text') {
                             'thumbnailImageUrl' => $result, 
                             'imageAspectRatio' => 'rectangle', 
                             'imageSize' => 'cover', 
-                            'imageBackgroundColor' => '#FFFFFF', 
-                            'title' => 'Qiblat Shalat', 
-                            'text' => 'Cek Full Image', 
+                            'imageBackgroundColor' => '#00add4', 
+                            'title' => 'Type Qiblat Shalat', 
+                            'text' => 'Type Full Image', 
                             'actions' =>  
                             array ( 
                               0 =>  
